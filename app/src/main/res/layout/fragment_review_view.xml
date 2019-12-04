@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvPuntuacion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:text="@string/f_review_view_tvPuntuacion"
+        app:layout_constraintStart_toStartOf="@+id/tvOpinionTex"
+        app:layout_constraintTop_toBottomOf="@+id/tvOpinionTex" />
+
+    <TextView
+        android:id="@+id/tvUsuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:text="@string/f_review_view_tvUsuario"
+        app:layout_constraintStart_toStartOf="@+id/tvPuntuacion"
+        app:layout_constraintTop_toBottomOf="@+id/tvPuntuacion" />
+
+    <TextView
+        android:id="@+id/tvOpinion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:singleLine="false"
+        android:text="@string/f_review_view_tvOpinion"
+        app:layout_constraintEnd_toEndOf="@+id/tvTituloTex"
+        app:layout_constraintStart_toStartOf="@+id/tvTituloTex"
+        app:layout_constraintTop_toBottomOf="@+id/tvTituloTex" />
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_margin"
+        android:layout_marginTop="@dimen/text_margin"
+        android:layout_marginEnd="@dimen/text_margin"
+        android:text="@string/f_review_view_tvTitulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUsuarioTex"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_margin"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/tvUsuario"
+        app:layout_constraintEnd_toEndOf="@+id/tvPuntuacionTex"
+        app:layout_constraintStart_toEndOf="@+id/tvUsuario"
+        app:layout_constraintTop_toTopOf="@+id/tvUsuario" />
+
+    <TextView
+        android:id="@+id/tvPuntuacionTex"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_margin"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/tvPuntuacion"
+        app:layout_constraintEnd_toEndOf="@+id/tvOpinionTex"
+        app:layout_constraintStart_toEndOf="@+id/tvPuntuacion"
+        app:layout_constraintTop_toTopOf="@+id/tvPuntuacion"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvOpinionTex"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/tvOpinion"
+        app:layout_constraintStart_toStartOf="@+id/tvOpinion"
+        app:layout_constraintTop_toBottomOf="@+id/tvOpinion" />
+
+    <TextView
+        android:id="@+id/tvTituloTex"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/tvTitulo"
+        app:layout_constraintStart_toStartOf="@+id/tvTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitulo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="titulo"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvPreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:text="preview" />
+
+    <TextView
+        android:id="@+id/tvLetraPk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="autor"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

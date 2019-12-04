@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvArticulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_margin"
+        android:layout_marginTop="@dimen/text_margin"
+        android:text="@string/f_review_add_tvArticulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actvArticuloNombre"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:text=""
+        app:layout_constraintStart_toStartOf="@+id/tvArticulo"
+        app:layout_constraintTop_toBottomOf="@+id/tvArticulo" />
+
+    <Spinner
+        android:id="@+id/spArticuloTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        app:layout_constraintStart_toStartOf="@+id/actvArticuloNombre"
+        app:layout_constraintTop_toBottomOf="@+id/actvArticuloNombre" />
+
+    <TextView
+        android:id="@+id/tvPuntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:text="@string/f_review_add_tvPuntuacion"
+        app:layout_constraintStart_toStartOf="@+id/spArticuloTipo"
+        app:layout_constraintTop_toBottomOf="@+id/spArticuloTipo" />
+
+    <EditText
+        android:id="@+id/etPuntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="@dimen/text_margin"
+        android:text=""
+        app:layout_constraintStart_toStartOf="@+id/tvPuntuacion"
+        app:layout_constraintTop_toBottomOf="@+id/tvPuntuacion" />
+
+    <TextView
+        android:id="@+id/tvOpiniont"
+        android:layout_width="55dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="@dimen/text_margin"
+        android:text="@string/f_review_add_tvOpiniont"
+        app:layout_constraintStart_toStartOf="@+id/etPuntuacion"
+        app:layout_constraintTop_toBottomOf="@+id/etPuntuacion" />
+
+    <EditText
+        android:id="@+id/etOpinion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="@dimen/text_margin"
+        app:layout_constraintStart_toStartOf="@+id/tvOpiniont"
+        app:layout_constraintTop_toBottomOf="@+id/tvOpiniont"
+        tools:layout_editor_absoluteX="46dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/text_margin"
+        android:layout_marginBottom="@dimen/text_margin"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

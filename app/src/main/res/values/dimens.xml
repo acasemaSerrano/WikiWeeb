@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="llLigonPadding">24dp</dimen>
+    <dimen name="tvLoginMarginTop">24dp</dimen>
+    <dimen name="imgBtLoginWidth">40dp</dimen>
+    <dimen name="imgBtLoginHeight">40dp</dimen>
+    <dimen name="btSignInLoginWidth">175dp</dimen>
+    <dimen name="imdtbLoginMargin">10dp</dimen>
+    <dimen name="tlDashMargin">20dp</dimen>
+    <dimen name="btDash">10dp</dimen>
+    <dimen name="letter_icon_size">32dp</dimen>
+    <dimen name="elevation_fab">3dp</dimen>
+    <dimen name="btfmargin">8dp</dimen>
+    <dimen name="erparacionEstamdar">16dp</dimen>
+    <dimen name="mStarSt">16dp</dimen>
+    <dimen name="mTopSt">16dp</dimen>
+    <dimen name="mEndSt">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="btForgottenPassword">50dp</dimen>
+
+</resources>

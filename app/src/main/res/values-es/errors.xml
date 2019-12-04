@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="errUserEmpty">usuario no vacío</string>
+    <string name="errPw">error en la contraseña</string>
+    <string name="errEm">error en el emmail</string>
+    <string name="errShortNameEmpty">nombre corto vacío</string>
+    <string name="errescripcionEmpty">descripción vacía</string>
+    <string name="errNameEmpty">nombre vacío</string>
+    <string name="errNotEcualPwName">nombre de usuario o contraseña no coinciden </string>
+    <string name="errOpinionEmpty">la opinión nula </string>
+    <string name="errPuntuacionEmpty">la puntuación es nula </string>
+    <string name="errPuntuacionNotInt">la puntuación no son números </string>
+
+</resources>
